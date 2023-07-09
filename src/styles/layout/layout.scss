@@ -23,3 +23,13 @@
         
     }
 }
+
+@media screen and (max-width:800px) {
+    .row{
+        justify-content: center;
+        flex-wrap: wrap;
+        .column {
+            width: 100%;
+        }
+    }
+}

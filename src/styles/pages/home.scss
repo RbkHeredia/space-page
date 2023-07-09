@@ -23,3 +23,25 @@ h1{
     font-size: 30px;
     font-family: $font-serif;
 }
+
+@media screen and (max-width:800px) {
+    .container-home{
+        @include cont('assets/home/background-home-mobile.jpg');
+    }
+    h1 {
+        text-align: center;
+        font-size: 15px;
+        .big-space{
+            font-size: 90px;
+        }
+    }
+    p {
+        text-align: center; 
+    }
+    .row {
+        margin-top: 5rem;
+        .column {
+            margin-bottom: 3rem
+        }
+    }
+}
