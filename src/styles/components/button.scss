@@ -1,0 +1,10 @@
+@import '../variables/variables';
+
+@mixin btn($area){
+    width: $area;
+    height: $area;
+    background-color: $background-color;
+    border:none;
+    border-radius: 50%;
+    cursor: pointer;
+}
