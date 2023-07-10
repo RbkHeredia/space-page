@@ -1,5 +1,5 @@
 import { GlobalContext } from '../provider/provider';
-import '../styles/layout/layout.scss';
+import '../styles/layout/_layout.scss';
 import '../styles/pages/home.scss';
 import { useContext } from 'react';
 

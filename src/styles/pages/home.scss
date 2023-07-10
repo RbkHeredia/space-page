@@ -3,9 +3,7 @@
 
 .container-home{
     @include cont('assets/home/background-home-desktop.jpg');
-    .row{
-        margin-top: 15rem;
-    }
+    
 }
 
 h1{
@@ -38,10 +36,5 @@ h1{
     p {
         text-align: center; 
     }
-    .row {
-        margin-top: 5rem;
-        .column {
-            margin-bottom: 3rem
-        }
-    }
+    
 }

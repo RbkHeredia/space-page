@@ -8,3 +8,25 @@
     border-radius: 50%;
     cursor: pointer;
 }
+
+@mixin btn-link {
+    background-color: rgb(255, 255, 255, 0);
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+@mixin circle {
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+    border:none;
+    background-color: $background-color;
+    cursor: pointer;
+    &:hover{
+        background-color: white;
+    }
+}
+
