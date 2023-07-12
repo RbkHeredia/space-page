@@ -14,14 +14,21 @@ export default function Crew () {
   return(
     <div className="container-crew">
       <div className="row">
-        <div className="column">
-          <h2 >02 &nbsp;{crew.title}</h2>
-          <h3>{crew.menu[n].role}</h3>
-          <h4>{crew.menu[n].name}</h4>
-          <p>{crew.menu[n].bio}</p>
-          <Menu handleW={handleW}/>
+        <div className='column'>
+          <div className="title">
+            <h2>02 &nbsp;{crew.title}</h2>
+          </div>
+          <div className='info'>
+            <h3>{crew.menu[n].role}</h3>
+            <h4>{crew.menu[n].name}</h4>
+            <p>{crew.menu[n].bio}</p>
+          </div>
+          <div className='buttons'>
+            <Menu handleW={handleW}/>
+          
+          </div>
         </div>
-        <div className="column">
+        <div className="column order2">
           <img src={crew.menu[n].image}/>
         </div>
       </div>

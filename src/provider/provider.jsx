@@ -6,7 +6,7 @@ const data = {
         {id: '00', title: 'home', href:'/'},
         {id: '01', title: 'destination', href:'/destination'},
         {id: '02', title: 'crew', href:'/crew'},
-        {id: '03', title: 'technology', href:'#'},
+        {id: '03', title: 'technology', href:'/tech'},
     ],
     home: {
         title:'So you want to travel to ',

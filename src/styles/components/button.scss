@@ -18,15 +18,17 @@
     padding: 0;
 }
 
-@mixin circle {
-    height: 1.2rem;
-    width: 1.2rem;
+@mixin circle ($area, $border, $background){
+    height: $area;
+    width: $area;
     border-radius: 50%;
-    border:none;
-    background-color: $background-color;
+    border:$border;
+    background-color: $background;
+    color: white;
     cursor: pointer;
     &:hover{
         background-color: white;
+        color: black;
     }
 }
 
